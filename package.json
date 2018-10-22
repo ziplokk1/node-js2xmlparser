@@ -16,8 +16,8 @@
   ],
   "license": "Apache-2.0",
   "author": {
-    "name": "Mark Sanders",
-    "email": "sdscdeveloper@gmail.com"
+    "name": "Michael Kourlas",
+    "email": "michael@kourlas.net"
   },
   "files": [
     "lib",
@@ -34,7 +34,7 @@
     "url": "git://github.com/ziplokk1/node-js2xmlparser.git"
   },
   "dependencies": {
-    "xmlcreate": "^1.0.1"
+    "xmlcreate3": "^2.0.0"
   },
   "devDependencies": {
     "@types/chai": "^3.4.35",
@@ -56,5 +56,11 @@
   },
   "scripts": {
     "prepack": "npm install && $(npm bin)/gulp prod"
-  }
+  },
+  "contributors": [
+    {
+      "name": "Mark Sanders",
+      "email": "ziplokk.mark.sanders@gmail.com"
+    }
+  ]
 }
