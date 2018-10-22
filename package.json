@@ -34,12 +34,12 @@
     "url": "git://github.com/ziplokk1/node-js2xmlparser.git"
   },
   "dependencies": {
-    "xmlcreate3": "^2.0.0"
+    "xmlcreate3": "^2.1.0"
   },
   "devDependencies": {
     "@types/chai": "^3.4.35",
-    "@types/mocha": "^2.2.39",
     "@types/handlebars": "4.0.33",
+    "@types/mocha": "^2.2.39",
     "chai": "^3.5.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
@@ -48,7 +48,7 @@
     "gulp-tslint": "^7.1.0",
     "gulp-typedoc": "^2.0.2",
     "gulp-typescript": "^3.1.5",
-    "merge2": "^1.0.3",
+    "merge2": "^1.2.3",
     "mocha": "^3.2.0",
     "tslint": "^4.4.2",
     "typedoc": "^0.5.7",
