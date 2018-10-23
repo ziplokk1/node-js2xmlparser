@@ -248,6 +248,7 @@ describe("options", () => {
                 const options = {
                     format: {
                         doubleQuotes: undefined,
+                        escapeRightAngleBracket: undefined,
                         indent: undefined,
                         newline: undefined,
                         pretty: undefined
@@ -271,6 +272,7 @@ describe("options", () => {
                 assert.deepEqual(new Options(options).format,
                                  {
                                      doubleQuotes: undefined,
+                                     escapeRightAngleBracket: undefined,
                                      indent: undefined,
                                      newline: undefined,
                                      pretty: undefined

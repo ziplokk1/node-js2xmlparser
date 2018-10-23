@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import {XmlAttribute, XmlDocument, XmlElement} from "xmlcreate";
+import {XmlAttribute, XmlDocument, XmlElement} from "xmlcreate3";
 import {IOptions, IRootAttributes, Options } from "./options";
 import {
     isArray,

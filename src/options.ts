@@ -502,6 +502,10 @@ export interface IFormatOptions {
      * the default value is `true`.
      */
     pretty?: boolean;
+    /**
+     * Escape right angle bracket in text.
+     */
+    escapeRightAngleBracket?: boolean;
 }
 
 /**
@@ -515,6 +519,7 @@ export class FormatOptions implements IFormatOptions {
     public indent?: string;
     public newline?: string;
     public pretty?: boolean;
+    public escapeRightAngleBracket?: boolean;
 
     constructor(formatOptions: IFormatOptions = {}) {
         if (!isObject(formatOptions)) {
@@ -527,6 +532,7 @@ export class FormatOptions implements IFormatOptions {
         this.indent = formatOptions.indent;
         this.newline = formatOptions.newline;
         this.pretty = formatOptions.pretty;
+        this.escapeRightAngleBracket = formatOptions.escapeRightAngleBracket;
     }
 }
 
